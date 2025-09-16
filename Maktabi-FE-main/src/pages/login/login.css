@@ -1,0 +1,70 @@
+.login-fill {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: static;
+}
+
+.login-box {
+    width: 30%;
+    height: 90%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.login-logo {
+    object-fit: cover;
+    height: auto;
+    width: 70%;
+    align-self: center;
+}
+
+.login-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 30px 50px;
+}
+
+.login-field {
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.login-form {
+    vertical-align: auto;
+    text-align: start;
+    margin-top: 80px;
+    font-weight: 900;
+}
+
+.forgot-text {
+    color: #0b5715;
+    text-decoration: none;
+}
+
+.forgot-text:hover {
+    color: #449933;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.signup-redirect {
+    color: #449933;
+}
+
+.signup-redirect:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.cred-error {
+    color: red;
+    width: 100%;
+    height: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}

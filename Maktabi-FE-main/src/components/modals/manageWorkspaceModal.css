@@ -1,0 +1,19 @@
+.admin-search-icon {
+    font-size: 20px;
+}
+
+.modal .w-45 {
+    width: 45%;
+}
+
+.manage-workspace-modal .modal-content {
+    padding-inline: 30px;
+}
+
+.primary-admin-wrapper {
+    gap: 10px;
+}
+
+.red {
+    color: red;
+}

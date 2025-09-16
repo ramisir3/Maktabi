@@ -1,0 +1,78 @@
+.backImage {
+    width: 100vw;
+    height: calc(100vh - 65px);
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.page-content {
+    position: fixed;
+    z-index: -1;
+}
+
+.title {
+    margin-left: 55vw;
+    margin-right: 10vw;
+    padding-top: 35vh;
+}
+
+.title-text {
+    font-size: 50px;
+    word-wrap: normal;
+}
+
+.brand-title {
+    font-size: 100px;
+    font-family: "Alegreya";
+    font-weight: 900;
+    color: #0b5715;
+}
+
+.full-page-bg {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f3f4f8;
+}
+
+.price-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 300px;
+}
+
+.price-box {
+    padding: 50px 25px;
+    border-radius: 20px;
+    margin: 50px 15px;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.special-price {
+    width: 55%;
+    font-size: 45px;
+    height: 550px;
+    border: 10px solid #0b5715;
+}
+
+.tier-title {
+    font-size: 30px;
+    font-weight: 800;
+    color: #0b5715;
+}
+
+/* Solid border */
+hr.solid {
+    width: 100%;
+    border-top: 5px solid #0b5715;
+}
+
+.tier-text {
+    font-size: 20px;
+}

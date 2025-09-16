@@ -1,0 +1,8 @@
+.action-icon {
+    color: #449933;
+}
+
+.small-table {
+    max-height: 150px !important;
+    overflow-y: auto;
+}

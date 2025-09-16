@@ -1,0 +1,93 @@
+.user-signup-fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f8;
+}
+
+.user-signup-box {
+    width: 30%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 50px 0;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.user-signup-form {
+    vertical-align: auto;
+    text-align: start;
+    margin-top: 80px;
+    font-weight: 900;
+}
+
+.user-signup-input-container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 50px 30px 50px;
+}
+
+.user-signup-two-inputs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.user-signup-file-uploader {
+    border-radius: 200px;
+    border: 5px solid #0b5715;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-signup-profile-image {
+    width: 140px;
+    height: 142px;
+    object-fit: cover;
+    border-radius: 200px;
+}
+
+.dark-green {
+    color: #0b5715;
+}
+
+.PhoneInputCountry {
+    gap: 10px;
+}
+
+.PhoneInputCountryIcon {
+    height: 90% !important;
+    width: 50px !important;
+}
+
+.PhoneInputInput {
+    height: 3.4375em;
+    border-color: #0b5715;
+    color: #0b5715;
+    outline: #0b5715;
+    border-radius: 6px;
+    border-style: solid;
+    padding-inline: 10px;
+}
+
+.PhoneInputCountryIcon--border {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.phn-error-text {
+    color: red;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 14px;
+    margin-bottom: 0;
+    margin-left: 14px;
+}

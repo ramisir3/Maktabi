@@ -1,0 +1,92 @@
+.admin-header-conntainer {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #449933;
+}
+
+.ws-admin-header-sub {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.ws-admin-header-logo {
+    height: 10%;
+    width: 10%;
+}
+
+.ws-admin-bars {
+    font-size: 20px;
+    color: white
+}
+
+.ws-admin-user-chip {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ws-admin-user-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.ws-admin-sidebar {
+    width: 350px;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ws-image-sidebar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ws-admin-sidebar-ws-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    height: calc(100vh - 300px);
+    overflow-y: scroll;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.ws-admin-sidebar-ws {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #449933;
+    padding: 5px;
+    cursor: pointer;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.ws-admin-options {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.desk-image {
+    width: 10px;
+}
+
+.admin-avatar {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 2px solid #0b5715
+}

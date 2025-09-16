@@ -1,0 +1,12 @@
+.ws-info-image {
+    width: 500px;
+    object-fit: cover;
+    height: 250px;
+    border-radius: 50px;
+}
+
+.carosel-image {
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
